@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- With this form, do a get request -->
+    <form action="" method="post">
+        First Name: <input type="text" name="firstname"><br>
+        Last Name: <input type="text" name="lastname"><br>
+        Email: <input type="email" name="email"><br>
+        Password: <input type="password" name="password" min="5"><br>
+        Birthday: <input type="date" name="birthday"><br>
+        Gender:<br>
+        <input type="radio" name="gender" value="Male">Male<br>
+        <input type="radio" name="gender" value="Female">Female<br>
+        <input type="radio" name="gender" value="Other">Other<br>
+        Pets: <br>
+        <input type="checkbox" name="cat"> Cat<br>
+        <input type="checkbox" name="dog"> Dog<br>
+        Cars: <br>
+        <select name="Car">
+            <option value="volvo">volvo</option>
+        </select> <br>
+        <button type="submit">Register</button>
+        <button type="reset">Reset</button>
+    </form>
+    <!-- When you submit the form using the get method, you get a query string when you open the network panel -->
+    
+</body>
+</html>

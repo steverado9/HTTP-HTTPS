@@ -1,0 +1,59 @@
+In 1989, Tim Berners lee invented HTML(Hypertext Markup Language).
+HTML won't do much if we couldn't fetch data from around the world.
+Tim also built the HTTP(Hypertext Transfer Protocol).
+
+HTTP: This is a protocol that allows the fetching of resources.
+With the use of Http and html, we now have the www(world wide web).
+http paved the way for something called the client server protocol, 
+which means requests are initiated by the recipient(the browser) in http and the server now understands what it is
+saying cos it is in http and now send back a response in html which the browser understands cos it is also speaking 
+in http.
+Http is a common Language that a client(browser) and a server use to communicate.
+The messages sent by a client are usually 'rquest' and the messages sent by the server are usually called 'response'.
+since http is a language, let's learn a few words
+1)GET: This means i want to get an html file.
+2)POST: This means i want to post something.
+3)PUT: This means i want to send some data to the server and update the info on the server(edit).
+4)DELETE: This means delete a piece of data on the server.
+
+What does the server responds with?
+1)http message: That is number codes like 200, 404, 501 etc.
+2)Some sort of data like html etc.
+
+How to send info to the srever other than using url
+1)Query string: we use a get request eg when we submit a form.
+2)through the body of the request: we use a post request.
+
+    HTTPS(Hypertext Transfer Protocol secure)
+This means the communication between the browser and the server is now encrypted.
+Meaning only the client and the server knows the secrete key to read the message.
+The 's' use Secure sockets layer(SSL) or Transport layer security(TLS)
+Tip: Make sure there's HTTPS whenever you are loggining to something, if no htts, it is not secure
+
+    Json(Javascript object notation)
+When exchanging data between a browser and a server, the data can only be a text.
+Json is text, written with Javascript object notation. 
+Json is a syntax for storing and exchanging data.
+is json the only way to store and exchange data, No
+Json can be read by any language.
+
+Javascript comes with it's own json function
+1)json.parse(): converts json to Javascript object.
+2)json.stringify(): converts Javascript object to Json.
+
+    Ajax
+This allows you to read from a web server after the page has loaded and update the web page without reloading
+and send data in the background while the user is still interacting with the website.
+Ajax allows web applications to change content dynamically.
+Ajax uses the fetch() method to make an ajax request
+Ajax is a combination of tools: fetch(), https and json
+
+    Promises
+Promise is an object that may produce a single value some time in the future.
+A promise may be in one of 3 states
+1)pending
+2)fulfilled
+3)rejcted
+Promises serve the same purpose as callbacks
+
+
