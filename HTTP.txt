@@ -55,5 +55,28 @@ A promise may be in one of 3 states
 2)fulfilled
 3)rejcted
 Promises serve the same purpose as callbacks
+A promise is something you can use inside your code even if you don't have the value yet.
+
+    Async Await
+Async Await is part of promises and it is built on top of promises.
+Async function is a function that return a promise
+Async Await makes code easier to read.
+Async Await are promises underneth the hood
+await keyword means to pause the function until i have a responds
+await keyword can be used infront of any function that resolves a promise
+
+    Es2018
+Three main feature to be aware of
+1)object spread operator 
+This is just like the spread operator but for objects
+
+2)Finally:
+it allows us to do something finally after a promise has finished
+No matter what, after everything is done in a promise 
+finally function will be called
+This is used to run a piece of code no matter what after a promise
+
+3)for await of
+This allows us to look through our async await calls if we have multiple of them
 
 
