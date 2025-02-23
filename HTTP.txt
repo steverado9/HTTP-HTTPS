@@ -55,18 +55,30 @@ A promise may be in one of 3 states
 2)fulfilled
 3)rejcted
 Promises serve the same purpose as callbacks
+with promises we can do something called .catch().
+.catch(): This catches any error that happen between the chains .then().
+it is always advisable to place the .catch() at the end of our .then() code.
 A promise is something you can use inside your code even if you don't have the value yet.
+Promises are great with asynchronous programming.
+setTimeOut(): helps us to run things after a few seconds.
+Promise.all(): This takes an array of promises. and the values will be returned as an array in the order they have been written down.
+fetch(): This returns a promise.
+fetch(): This returns a response in json format.
 
     Async Await
-Async Await is part of promises and it is built on top of promises.
-Async function is a function that return a promise
-Async Await makes code easier to read.
-Async Await are promises underneth the hood
-await keyword means to pause the function until i have a responds
-await keyword can be used infront of any function that resolves a promise
+-Async Await is part of es6 and it is built on top of promises.
+-An async function is a function that returns a promise.
+-Async Await makes code easier to read.
+-It also makes asynchronous code looks synchronous.
+-Anytime we write an async function, we now have access to await.
+-Anytime an async function is done, it awaits the next move.
+-We can use await infront of anyhthing that returns a promise.
+Async Await are promises underneth the hood.
+await keyword means to pause the function until i have a responds.
+-We use try and catch for async and await.
 
     Es2018
-Three main feature to be aware of
+Three main features to be aware of
 1)object spread operator 
 This is just like the spread operator but for objects
 
