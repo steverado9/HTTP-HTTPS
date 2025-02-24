@@ -81,7 +81,6 @@ await keyword means to pause the function until i have a responds.
 Three main features to be aware of
 1)object spread operator 
 This is just like the spread operator but for objects
-
 2)Finally:
 it allows us to do something finally after a promise has finished
 No matter what, after everything is done in a promise 
